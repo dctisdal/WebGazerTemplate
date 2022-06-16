@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>WebGazer.js: Democratizing Webcam Eye Tracking on the Browser</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/highlight/styles/default.css">
+        <script src="css/highlight/highlight.pack.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+
+ 
+        <hr class="featurette-divider">
+        <div id="examples" class="container pad">
+            <h2 class="text-center pad">Examples</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="media/example/empty.png" alt="Empty Webpage Demo" width="300" height="250">
+                    <h4 class="pad">Calibration on Empty Page</h4>
+                    <p>See how easy it is to integrate WebGazer.js on any webpage. With just a few clicks you will get real-time predictions. Follow the popup instructions to click through 9 calibration points on the screen whilst looking at the cursor.
+                        <form method="get" action="calibration.html">
+                        <button id='calibration_button' class="btn btn-primary" type="submit">Try Live Demo</button>
+                    </form>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="media/example/collision.png" alt="Collision demo" width="300" height="250">
+                    <h4 class="pad">Ball Collision Game</h4>
+                    <p class="text-justify">Move the orange ball with your eyes and create collisions with the blue balls. Train WebGazer.js by clicking in various locations within the screen, while looking at your cursor.
+                        <form method="get" action="collision.html">
+                        <button id='collision_button' class="btn btn-primary" type="submit">Try Live Demo</button>
+                    </form>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="media/example/google_serp.png" alt="SearchGazer" width="300" height="250">
+                    <h4 class="pad">WebGazer on Search Engines</h4>
+                    <p class="text-justify">We have created SearchGazer.js, a library that incorporates WebGazer in Search Engines such as Bing and Google.
+                        <form method="get" action="./search">
+                        <button class="btn btn-primary" type="submit">Try SearchGazer.js</button>
+                    </form>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+        <div id="publication" class="container pad">
+            <h2 class="text-center">Publications</h2>
+            <p><i><b>Note: </b>The current iteration of WebGazer no longer corresponds with the WebGazer described in the following publications and which can be found <a href="https://github.com/brownhci/WebGazer/tree/2a4a70cb49b2d568a09362e1b52fd3bd025cd38d">here</a>.</i></p>
+            <div class="row">
+            <div class="col-lg-1">
+                <a href="https://jeffhuang.com/Final_WebGazer_IJCAI16.pdf"><img src="media/pdf.png"></a>
+            </div>
+            <div class="col-lg-11">
+            <p>If you use WebGazer.js please cite:</p>
+            <p>
+            <code>
+                @inproceedings{papoutsaki2016webgazer,<br>
+                &nbsp; author     = {Alexandra Papoutsaki and Patsorn Sangkloy and James Laskey and Nediyana Daskalova and Jeff Huang and James Hays},<br>
+                &nbsp; title      = {WebGazer: Scalable Webcam Eye Tracking Using User Interactions},<br>
+                &nbsp; booktitle  = {Proceedings of the 25th International Joint Conference on Artificial Intelligence (IJCAI)},<br>
+                &nbsp; pages      = {3839--3845},<br>
+                &nbsp; year       = {2016},<br>
+                &nbsp; organization={AAAI}<br>
+                }
+            </code>
+            </p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-1">
+                <a href="https://jeffhuang.com/Final_SearchGazer_CHIIR17.pdf"><img src="media/pdf.png"></a>
+            </div>
+            <div class="col-lg-11">
+            <p>If you use <a href="./search">SearchGazer.js</a> please cite the following paper:</p>
+            <p>
+            <code>
+            	@inproceedings{papoutsaki2017searchgazer,<br>
+                &nbsp; author = {Alexandra Papoutsaki and James Laskey and Jeff Huang},<br>
+                &nbsp; title = {SearchGazer: Webcam Eye Tracking for Remote Studies of Web Search},<br>
+                &nbsp; booktitle = {Proceedings of the ACM SIGIR Conference on Human Information Interaction \& Retrieval (CHIIR)},<br>
+                &nbsp; year = {2017},<br>
+                &nbsp; organization={ACM}<br>
+                }
+            </code>
+            </p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-1">
+                <a href="https://jeffhuang.com/Final_EyeTyper_ETRA18.pdf"><img src="media/pdf.png"></a>
+            </div>
+            <div class="col-lg-11">
+            <p>For the <a href="./data">WebGazer webcam dataset</a> and findings about gaze behavior during typing:</p>
+            <p>
+            <code>
+            	@inproceedings{papoutsaki2018eye,<br>
+                &nbsp; title={The eye of the typer: a benchmark and analysis of gaze behavior during typing},<br>
+                &nbsp; author={Papoutsaki, Alexandra and Gokaslan, Aaron and Tompkin, James and He, Yuze and Huang, Jeff},<br>
+                &nbsp; booktitle={Proceedings of the 2018 ACM Symposium on Eye Tracking Research \& Applications},<br>
+                &nbsp; pages={16},<br>
+                &nbsp; year={2018},<br>
+                &nbsp; organization={ACM}<br>
+                }
+            </code>
+            </p>
+            </div>
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+        <div id="press" class="container pad">
+            <h2 class="text-center">Press</h2>
+            <div class="row pad">
+                <div class="col-lg-6">
+                    <p>Websites that have featured WebGazer.js:</p>
+                    <ul class="nobullets">
+                        <li><a href="http://www.cio.com.au/article/601028/web-developers-meet-webgazer-software-turns-webcams-into-eye-trackers/">CIO</a></li>
+                        <!--li><a href="http://www.healthaim.com/exclusive-scientist-alexandra-papoutsaki-on-revolutionary-eye-tracking-technology-webgazer-js-for-using-computers-without-lifting-a-finger/58039">HEALTHAIM</a></li-->
+                        <li><a href="http://www.i-programmer.info/news/146-uiux/9786-webgazerjs-an-in-browser-eye-tracking-library.html">I Programmer</a></li>
+                        <li><a href="https://news.brown.edu/articles/2016/06/eyetracker">News from Brown</a></li>
+                        <li><a href="http://www.pcworld.com/article/3078712/application-development/web-developers-meet-webgazer-software-that-turns-webcams-into-eye-trackers.html">PCWorld</a></li>
+                        <li><a href="http://news.softpedia.com/news/webgazer-uses-javascript-and-your-webcam-to-track-eye-movements-505666.shtml">Softpedia</a></li>
+                        <li><a href="https://techxplore.com/news/2016-06-software-webcams-eye-trackers.html">TechXplore</a></li>
+                        <li><a href="http://www.theregister.co.uk/2016/06/02/brown_boffins_brew_eyetracking_javascript/">The Register</a></li>
+                        <li><a href="http://zeenews.india.com/news/science/webgazer-js-turns-users-webcams-into-eye-trackers_1891045.html">Z NEWS</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                <p>Online discussions in:</p>
+                <ul class="nobullets">
+                    <li><a href="https://news.ycombinator.com/item?id=11770273">Hacker News</a></li>
+                    <li><a href="https://www.reddit.com/r/programming/comments/4kyeww/webgazerjs_eye_tracking_library_using_the_webcam/">Reddit /r/programming</a></li>
+                    <li><a href="https://twitter.com/search?f=tweets&vertical=default&q=webgazer">Twitter</a></li>
+                </div>
+
+        </div>
+
+        <hr class="featurette-divider">
+        <div id="contact" class="container pad">
+            <h2 class="text-center pad">Who We Are</h2>
+            <div class="row pad">
+                <!-- bootstrap has 12 columns, so each person gets part of that 12 cols -->
+
+                <div class="col-lg-2">
+                    <img class="rounded-circle mx-auto d-block" src="media/people/alexpap.jpg" alt="Alexandra Papoutsaki" height="140">
+                    <h4 class="text-center"><a href="http://www.cs.pomona.edu/~apapoutsaki/">Alexandra Papoutsaki</a></h4>
+                </div>
+                <div class="col-lg-2">
+                    <img class="rounded-circle mx-auto d-block" src="media/people/aaron.jpg" alt="Aaron Gokaslan" height="140">
+                    <h4 class="text-center"><a href="https://skylion007.github.io/">Aaron Gokaslan</a></h4>
+                </div>
+                <div class="col-lg-2">
+                    <img class="rounded-circle mx-auto d-block" src="media/people/ida.jpg" alt="Ida De Smet" height="140">
+                    <h4 class="text-center"><a href="https://www.linkedin.com/in/idakdesmet/">Ida De Smet</a></h4>
+                </div>
+                <div class="col-lg-2">
+                    <img class="rounded-circle mx-auto d-block" src="media/people/xander.jpg" alt="Xander Koo" height="140">
+                    <h4 class="text-center"><a href="https://www.linkedin.com/in/xanderkoo/">Xander Koo</a></h4>
+                </div>
+                <div class="col-lg-2">
+                    <img class="rounded-circle mx-auto d-block" src="media/people/james.jpg" alt="James Tompkin" height="140">
+                    <h4 class="text-center"><a href="https://jamestompkin.com/">James Tompkin</a></h4>
+                </div>
+                <div class="col-lg-2">
+                    <img class="rounded-circle mx-auto d-block" src="media/people/jeff.jpg" alt="Jeff Huang" height="140">
+                    <h4 class="text-center"><a href="https://jeffhuang.com">Jeff Huang</a></h4>
+                </div>
+            </div>
+            <div class="row pad">
+            	<div class="col-lg-6">
+	                <h3>Other Contributors</h3>
+	                <ul style="margin-top: 20px" class="nobullets">
+	                    <li><a href="https://nediyana.github.io/">Nediyana Daskalova</a></li>
+	                    <li><a href="https://www.cc.gatech.edu/~hays/">James Hays</a></li>
+	                    <li>Yuze He</li>
+	                    <li>James Laskey</li>
+	                    <li><a href="https://www.cc.gatech.edu/~psangklo/">Patsorn Sangkloy</a></li>
+	                    <li>Elizabeth Stevenson</li>
+	                    <li><a href="https://cs.brown.edu/~ptunnell/">Preston Tunnell Wilson</a></li>
+	                    <li>Jack Wong</li>
+	                </ul>
+            	</div>
+            	<div class="col-lg-6">
+	                <h3 class="pad">Acknowledgements</h3>
+	                <p>Webgazer is based on the research originally done at Brown University, with recent work and maintenance jointly between Pomona College and Brown University. The work of the calibration example file was developed in the context of a course project with the aim to improve the feedback of WebGazer, proposed by Dr. Gerald Weber and his team Dr. Clemens Zeidler and Kai-Cheung Leung.
+	                  <br /><br />
+	                  This research is supported by NSF grants IIS-1464061, IIS-1552663, a Seed Award from the Center for Vision Research at Brown University, and the Brown University Salomon Award.
+	                </p>
+	            </div>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <div id="license" class="container pad">
+            <h2 class="text-center">License</h2>
+            <p class="text-center">Copyright (C) 2021 <a href="https://hci.brown.edu">Brown HCI Group</a><br>
+            Licensed under <a href="http://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>.
+            </p>
+
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
